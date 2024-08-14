@@ -20,9 +20,9 @@ syn keyword nextflowDirective afterScript beforeScript cache container cpus clus
 
 syn match nextflowBlock "\v(input|output|script|shell|exec):"
 
-syn keyword nextflowKeyword from into
+syn keyword nextflowKeyword from into fromList of
 
-syn keyword nextflowType file val process Channel
+syn keyword nextflowType file val process Channel channel channel 
 
 syn keyword nextflowSpecial    workflow params launchDir
 
