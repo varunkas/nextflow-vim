@@ -22,9 +22,9 @@ syn match nextflowBlock "\v(input|output|script|shell|exec):"
 
 syn keyword nextflowKeyword from into fromList of
 
-syn keyword nextflowType file val process Channel channel channel 
+syn keyword nextflowType file val process Channel channel
 
-syn keyword nextflowSpecial    workflow params launchDir
+syn keyword nextflowSpecial    workflow params launchDir moduleDir nextflow projectDir secrets workDir
 
 syn keyword nextflowConstant   null
 
